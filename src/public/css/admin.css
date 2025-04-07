@@ -1,0 +1,150 @@
+.admin-container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #8B6F4E;
+}
+
+.search-form {
+    display: grid;
+    grid-template-columns: 35% 10% 20% 15% 10% 10%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-form input,
+.search-form select,
+.search-form button {
+    padding: 8px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+}
+
+.export-button-link__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.export-button {
+    background-color: #d1bfa7;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.export-button:hover {
+    background-color: #bfa58b;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.link a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #8B6F4E;
+    border: 1px solid #8B6F4E;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.link a:hover {
+    background-color: #8B6F4E;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #8B6F4E;
+    color: white;
+}
+
+table td a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #8B6F4E;
+    border: 1px solid #8B6F4E;
+    padding: 5px;
+}
+
+table td a:hover {
+    background-color: #8B6F4E;
+    color: white;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    margin: 0 5px;
+    background-color: #8B6F4E;
+    color: white;
+    padding: 0 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #7a5f3d;
+}
+
+button[type="reset"] {
+    display: inline-block;
+    margin: 0 5px;
+    background-color: #d4ae81;
+    color: white;
+    padding: 0 20px;
+    border: 1px solid #d4ae81;
+    cursor: pointer;
+}
+
+button[type="reset"]:hover {
+    background-color: #8B6F4E;
+    color: white;
+}
+
+.detail-button {
+    display: inline-block;
+    color: #d4ae81;
+    background-color: white;
+    border: 1px solid #d4ae81;
+    cursor: pointer;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #bfa58b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

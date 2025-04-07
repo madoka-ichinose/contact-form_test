@@ -1,0 +1,96 @@
+body {
+    font-family: 'Inika', sans-serif;
+    background-color: white;
+    color: #5c4437;
+    text-align: center;
+}
+
+.contact_contents {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-info {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* フォームのスタイル */
+.form {
+    background: #fff;
+    padding: 20px;
+}
+
+.form__group {
+    margin-bottom: 15px;
+    text-align: left;
+    display: flex;
+    width: 972px;
+}
+
+.form__group-title {
+    margin-bottom: 5px;
+    flex-basis: 260px;
+}
+
+.form__group-content {
+    flex-basis: 640px;
+}
+
+.form__label--required {
+    color: red;
+    margin-left: 5px;
+}
+
+.form__input--text {
+    display: flex;
+    gap: 20px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea,
+.form__input--text select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+
+.form__input--textarea textarea {
+    height: 148px;
+}
+
+.form__input--radio {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+input[type="tel"] {
+    text-align: center;
+}
+
+.form__button-submit {
+    background-color: #8b6f50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form__button-submit:hover {
+    background-color: #72573e;
+}
+
+.form__error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
