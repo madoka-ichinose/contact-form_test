@@ -97,7 +97,7 @@
 
 ## ER図  
 
-![alt text](image-2.png)  
+![image](https://github.com/user-attachments/assets/6b0b5c99-51ce-4dc7-aa3b-aac07625e20a)
 
 - index.drawio.pngに記載
 
